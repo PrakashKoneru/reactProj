@@ -278,7 +278,7 @@ export default function FormExercise() {
               <ul className="text-blue-700 text-xs mt-1 space-y-1">
                 <li>• Use e.target.type to check if it's a checkbox</li>
                 <li>• For interests array, check if checked and add/remove from array</li>
-                <li>• Use spread operator to update specific fields: {...prev, [name]: value}</li>
+                <li>• Use spread operator to update specific fields: {`{...prev, [name]: value}`}</li>
                 <li>• Clear errors when user starts typing</li>
                 <li>• Use preventDefault() in form submission</li>
               </ul>
