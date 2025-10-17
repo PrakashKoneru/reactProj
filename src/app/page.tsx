@@ -27,7 +27,7 @@ export default function Home() {
             Choose your learning path. What would you like to focus on?
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
             <a 
               href="/basic-types"
               className="bg-blue-600 text-white px-6 py-4 rounded-lg hover:bg-blue-700 transition-colors text-center"
@@ -41,6 +41,27 @@ export default function Home() {
             >
               <div className="text-lg font-semibold">State Management</div>
               <div className="text-sm opacity-90">Master React state with hands-on exercises</div>
+            </a>
+            <a 
+              href="/animated-logo-demo"
+              className="bg-purple-600 text-white px-6 py-4 rounded-lg hover:bg-purple-700 transition-colors text-center"
+            >
+              <div className="text-lg font-semibold">SVG Animations - Basic</div>
+              <div className="text-sm opacity-90">Randomized icon animations</div>
+            </a>
+            <a 
+              href="/animated-logo-advanced"
+              className="bg-pink-600 text-white px-6 py-4 rounded-lg hover:bg-pink-700 transition-colors text-center"
+            >
+              <div className="text-lg font-semibold">SVG Animations - Advanced</div>
+              <div className="text-sm opacity-90">Multiple patterns &amp; controls</div>
+            </a>
+            <a 
+              href="/animated-logo-smooth"
+              className="bg-indigo-600 text-white px-6 py-4 rounded-lg hover:bg-indigo-700 transition-colors text-center"
+            >
+              <div className="text-lg font-semibold">SVG Animations - Smooth ⚡</div>
+              <div className="text-sm opacity-90">60fps GPU-accelerated</div>
             </a>
           </div>
         </div>
