@@ -68,6 +68,7 @@ export default function AnimatedLogoSmooth() {
     }, 2250); // Match animation duration
 
     return () => clearInterval(interval);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
